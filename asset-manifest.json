@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/project1/static/css/main.d545ad8d.css",
-    "main.js": "/project1/static/js/main.f543be83.js",
+    "main.js": "/project1/static/js/main.279293b5.js",
     "static/media/Business-Laws.jpg": "/project1/static/media/Business-Laws.edab942e2772e2deb4d2.jpg",
     "static/media/logo.png": "/project1/static/media/logo.4b7bc6e63ee034288268.png",
     "static/media/plainlogo.png": "/project1/static/media/plainlogo.b2a0219fb490094f2a9c.png",
     "index.html": "/project1/index.html",
     "main.d545ad8d.css.map": "/project1/static/css/main.d545ad8d.css.map",
-    "main.f543be83.js.map": "/project1/static/js/main.f543be83.js.map"
+    "main.279293b5.js.map": "/project1/static/js/main.279293b5.js.map"
   },
   "entrypoints": [
     "static/css/main.d545ad8d.css",
-    "static/js/main.f543be83.js"
+    "static/js/main.279293b5.js"
   ]
 }

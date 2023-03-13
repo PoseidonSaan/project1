@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 
 import { GiPistolGun } from 'react-icons/gi'
@@ -17,7 +15,6 @@ import { RiTeamFill } from 'react-icons/ri'
 function Home() {
     return (
         <div>
-            
             <div className='w-100% h-fit   text-black px-20'>
                 <div className=' p-4 flex flex-col justify-left w-full h-full text-sm font-light mx-auto'>
                     <div className='pb-4'>
@@ -34,7 +31,7 @@ function Home() {
             </div>
 
             <div className='w-full h-1/4 md:h-1/2'>
-                <div className='grid grid-cols-1 md:grid-cols-4 px-20 py-48 '>
+                <div className='grid grid-cols-1 md:grid-cols-4 px-20 pb-48 pt-8 '>
 
 
                     <div className='group bg-gray-800 grid grid-row-3 p-8 hover:cursor-pointer '>

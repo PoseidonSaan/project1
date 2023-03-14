@@ -1,6 +1,5 @@
 import React from 'react'
 import whitelogo from '../assets/logo.png'
-import logo from '../assets/plainlogo.png'
 import { IoChevronForwardSharp } from 'react-icons/io5'
 import { BsFillTelephoneFill, BsFillClockFill } from 'react-icons/bs'
 import { IoLocationSharp } from 'react-icons/io5'

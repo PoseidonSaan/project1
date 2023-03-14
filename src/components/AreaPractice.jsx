@@ -55,13 +55,14 @@ const AreaPractice = () => {
         <div>
 
             <div  className='group bg-gray-600 grid grid-row-2 p-0 hover:cursor-pointer '>
+                <a href='/civildispute'>
                 <div className='flex items-center justify-center'>
                    < GiPistolGun className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                 </div>
                 <div className='flex place-content-start justify-center text-2xl text-white pb-10'>
                     <p className='group-hover:text-yellow-500'>Criminal Law</p>
                </div>
-              
+                </a>
             </div>
 
             <div className=' flex place-content-start justify-center text-justify  text-base font-serif text-black px-6 pb-10 pt-4'>

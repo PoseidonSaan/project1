@@ -1,6 +1,5 @@
 import React from 'react'
 import { AiOutlineMinus } from "react-icons/ai"
-import BusinessLaws from '../assets/Business-Laws.jpg'
 import { IoChevronForwardSharp } from 'react-icons/io5'
 const CivilDispute = () => {
   return (

@@ -37,12 +37,14 @@ const AreaPractice = () => {
 
        <div>
              <div  className='group bg-gray-800 grid grid-row-2 p-0 hover:cursor-pointer '>
+                <a href='/businesslaw'>
                 <div className='flex items-center justify-center'>
                    <RiTeamFill className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                 </div>
                 <div className='flex place-content-start justify-center text-2xl text-white pb-10'>
                     <p className='group-hover:text-yellow-500'>Business Law</p>
                </div>
+               </a>
             </div>
             <div className=' flex place-content-start justify-center text-justify  text-base font-serif text px-6 pb-10 pt-4'>
             <p className='justify-center text-justify  text-base font-serif '>
@@ -55,14 +57,15 @@ const AreaPractice = () => {
         <div>
 
             <div  className='group bg-gray-600 grid grid-row-2 p-0 hover:cursor-pointer '>
-                <a href='/civildispute'>
+                <a href='/criminallaw'>
                 <div className='flex items-center justify-center'>
                    < GiPistolGun className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                 </div>
                 <div className='flex place-content-start justify-center text-2xl text-white pb-10'>
                     <p className='group-hover:text-yellow-500'>Criminal Law</p>
                </div>
-                </a>
+               </a>
+              
             </div>
 
             <div className=' flex place-content-start justify-center text-justify  text-base font-serif text-black px-6 pb-10 pt-4'>
@@ -75,12 +78,14 @@ const AreaPractice = () => {
             
         <div>
             <div  className='group bg-gray-800 grid grid-row-2 p-0 hover:cursor-pointer '>
+            <a href='/whitecolaar'>
                 <div className='flex items-center justify-center'>
                    <GiHandcuffs className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                 </div>
                 <div className='flex place-content-start justify-center text-2xl text-white pb-10'>
                     <p className='group-hover:text-yellow-500'>White-Collar Crime</p>
                </div>
+            </a>
             </div>
             <div className=' flex place-content-start justify-center text-justify  text-base font-serif text-black px-6 pb-10 pt-4'>
             <p className='justify-center text-justify  text-base font-serif '>
@@ -92,12 +97,14 @@ const AreaPractice = () => {
         <div>
 
             <div  className='group bg-gray-600 grid grid-row-2 p-0 hover:cursor-pointer '>
+            <a href='/privacylaw'>
                 <div className='flex items-center justify-center'>
                < FaBusinessTime className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                 </div>
                 <div className='flex place-content-start justify-center text-2xl text-white pb-10'>
                     <p className='group-hover:text-yellow-500'>Privacy & Data Protection</p>
                </div>
+            </a>
             </div>
             <div className=' flex place-content-start justify-center text-justify  text-base font-serif text-black px-6 pb-10 pt-4'>
             <p className='justify-center text-justify  text-base font-serif '>
@@ -108,12 +115,14 @@ const AreaPractice = () => {
 
         <div>
             <div  className='group bg-gray-600 grid grid-row-2 p-0 hover:cursor-pointer '>
+            <a href='/familylaw'>
                 <div className='flex items-center justify-center'>
                    <MdOutlineFamilyRestroom className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                 </div>
                 <div className='flex place-content-start justify-center text-2xl text-white pb-10'>
                     <p className='group-hover:text-yellow-500'>Family Law</p>
                </div>
+            </a>
             
             </div>
             <div className=' flex place-content-start justify-center text-justify  text-base font-serif text-black px-6 pb-10 pt-4'>
@@ -125,12 +134,14 @@ const AreaPractice = () => {
 
         <div>
             <div  className='group bg-gray-800 grid grid-row-2 p-0 hover:cursor-pointer '>
+            <a href='/constitutionallaw'>
                 <div className='flex items-center justify-center'>
                    < FaBalanceScale className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                 </div>
                 <div className='flex place-content-start justify-center text-2xl text-white pb-10'>
                     <p className='group-hover:text-yellow-500'>Constitutional law</p>
                </div>
+            </a>
             
             </div>
             <div className=' flex place-content-start justify-center text-justify  text-base font-serif text-black px-6 pb-10 pt-4'>
@@ -142,12 +153,14 @@ const AreaPractice = () => {
 
         <div>
             <div  className='group bg-gray-600 grid grid-row-2 p-0 hover:cursor-pointer '>
+            <a href='/medicallaw'>
                 <div className='flex items-center justify-center'>
                    <FaBriefcaseMedical className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                 </div>
                 <div className='flex place-content-start justify-center text-2xl text-white pb-10'>
                     <p className='group-hover:text-yellow-500'>Medical Negligence</p>
                </div>
+            </a>
               
             </div>
             <div className=' flex place-content-start justify-center text-justify  text-base font-serif text-black px-6 pb-10 pt-4'>
@@ -159,12 +172,14 @@ const AreaPractice = () => {
 
         <div>
             <div  className='group bg-gray-800 grid grid-row-2 p-0 hover:cursor-pointer '>
+            <a href='/civildispute'>
                 <div className='flex items-center justify-center'>
                    < FaHome className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                 </div>
                 <div className='flex place-content-start justify-center text-2xl text-white pb-10'>
                     <p className='group-hover:text-yellow-500'>Civil & Consumer Dispute</p>
                </div>
+            </a>
              
             </div>
             <div className=' flex text-black px-6 pb-10 pt-4'>
@@ -177,12 +192,14 @@ const AreaPractice = () => {
         <div>
 
 <div  className='group bg-gray-600 grid grid-row-2 p-0 hover:cursor-pointer '>
+<a href='/labourlaw'>
     <div className='flex items-center justify-center'>
    < GiFullMotorcycleHelmet className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
     </div>
     <div className='flex place-content-start justify-center text-2xl text-white pb-10'>
         <p className='group-hover:text-yellow-500'>Labour & Employment Law</p>
    </div>
+</a>
 </div>
 <div className=' flex place-content-start justify-center text-justify  text-base font-serif text-black px-6 pb-10 pt-4'>
 <p className='justify-center text-justify  text-base font-serif '>

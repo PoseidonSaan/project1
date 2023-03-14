@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-80% h-20 px-4 text-black mx-10">
       <div>
-        <img src={Logo} alt="logo" className='cursor-pointer ' />
+        <a href='/project1'><img src={Logo} alt="logo" className='cursor-pointer ' /></a>
       </div>
 
       <ul className='hidden md:flex text-black text-xs font-medium'>

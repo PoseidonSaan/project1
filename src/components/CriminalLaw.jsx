@@ -17,7 +17,7 @@ const CriminalLaw = () => {
             backgroundPosition: "center center",
             backgroundAttachment: "local",
           }}>
-          <h1 className='pt-5 pb-0'>CONSTITUTIONAL LAW</h1> 
+          <h1 className='pt-5 pb-0'>CRIMINAL LAW</h1> 
           <AiOutlineMinus size={150} pt-0 />
         </div>
 

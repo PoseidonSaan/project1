@@ -8,8 +8,9 @@ const BottomPage = () => (
     <div>
         <footer className="bg-[#242A36] text-white py-10">
             <div className="flex flex-wrap flex-col justify-center md:flex-row md:justify-between">
-                <div className="mx-4 mb-8 md:mb-0 flex flex-col items-center flex-1 w-full">
+                <div className="mx-4 mb-8 md:mb-0 flex flex-col items-center flex-1 w-full"><a href='/project1'>
                     <img src={whitelogo} alt="Company Logo" className="h-20 w-auto mb-4" />
+                </a>
                     <div className="max-w-xs text-left ">
                         <p className="text-m overflow-hidden text-gray-400 pb-4" style={{ textOverflow: 'ellipsis' }}>
                             Chambers of Jayant Bhatt caters to varied clients comprising of Governmental and Non-Governmental Bodies, Multinationals, Financial Institutions and individuals in an array of matters.
@@ -21,20 +22,16 @@ const BottomPage = () => (
                     <ul>
                         <li className="mb-2"><div className="inline-flex items-center font-bold">
                             <IoChevronForwardSharp className="mr-1" />
-                            <span className="text-sm font-bold uppercase hover:scale-105 duration-200 hover:text-yellow-400 cursor-pointer">areas of practice</span>
+                            <span className="text-sm font-bold uppercase hover:scale-105 duration-200 hover:text-yellow-400 cursor-pointer"><a href='/areapractice'>Areas Of practice</a></span>
                         </div>
                         </li>
                         <li className="mb-2"><div className="inline-flex items-center font-bold">
                             <IoChevronForwardSharp className="mr-1" />
-                            <span className="text-sm font-bold uppercase hover:scale-105 duration-200 hover:text-yellow-400 cursor-pointer">publication & media</span>
-                        </div></li>
-                        <li className="mb-2"><div className="inline-flex items-center font-bold">
-                            <IoChevronForwardSharp className="mr-1" />
-                            <span className="text-sm font-bold uppercase hover:scale-105 duration-200 hover:text-yellow-400 cursor-pointer">contact us</span>
+                            <span className="text-sm font-bold uppercase hover:scale-105 duration-200 hover:text-yellow-400 cursor-pointer"><a href='/contactus'>Contact us</a></span>
                         </div></li>
                         <li className="mb-2 text-sm"><div className="inline-flex items-center font-bold">
                             <IoChevronForwardSharp className="mr-1" />
-                            <span className="text-sm font-bold uppercase hover:scale-105 duration-200 hover:text-yellow-400 cursor-pointer">career</span>
+                            <span className="text-sm font-bold uppercase hover:scale-105 duration-200 hover:text-yellow-400 cursor-pointer"><a href='/career'>Career</a></span>
                         </div></li>
                     </ul>
                 </div>

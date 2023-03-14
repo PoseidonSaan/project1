@@ -35,6 +35,7 @@ function Home() {
 
 
                     <div className='group bg-gray-800 grid grid-row-3 p-8 hover:cursor-pointer '>
+                        <a href='/businesslaw'>
                         <div className='flex items-center justify-center'>
                             <RiTeamFill className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                         </div>
@@ -44,9 +45,11 @@ function Home() {
                         <div className=' flex place-content-start justify-center text-justify  text-base font-serif text-gray-200 px-6 pb-10'>
                             Our corporate services help dealing with the crucial and itricate matters efficiently.
                         </div>
+                        </a>
                     </div>
 
                     <div className='group bg-gray-600 grid grid-row-3 p-8 hover:cursor-pointer '>
+                        <a href='/criminallaw'>
                         <div className='flex items-center justify-center'>
                             < GiPistolGun className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                         </div>
@@ -56,10 +59,12 @@ function Home() {
                         <div className=' flex place-content-start justify-center text-justify  text-base font-serif text-gray-200 px-6 pb-10'>
                             Our corporate services help dealing with the crucial and itricate matters efficiently.
                         </div>
+                        </a>
                     </div>
 
 
                     <div className='group bg-gray-800 grid grid-row-3 p-8 hover:cursor-pointer '>
+                        <a href='/whitecollar'>
                         <div className='flex items-center justify-center'>
                             <GiHandcuffs className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                         </div>
@@ -69,10 +74,12 @@ function Home() {
                         <div className=' flex place-content-start justify-center text-justify  text-base font-serif text-gray-200 px-6 pb-10'>
                             Our corporate services help dealing with the crucial and itricate matters efficiently.
                         </div>
+                        </a>
                     </div>
 
 
                     <div className='group bg-gray-600 grid grid-row-3 p-8 hover:cursor-pointer '>
+                        <a href='/privacylaw'>
                         <div className='flex items-center justify-center'>
                             < FaBusinessTime className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                         </div>
@@ -82,10 +89,12 @@ function Home() {
                         <div className=' flex place-content-start justify-center text-justify  text-base font-serif text-gray-200 px-6 pb-10'>
                             Our corporate services help dealing with the crucial and itricate matters efficiently.
                         </div>
+                        </a>
                     </div>
 
 
                     <div className='group bg-gray-600 grid grid-row-3 p-8 hover:cursor-pointer '>
+                        <a href='/familylaw'>
                         <div className='flex items-center justify-center'>
                             <MdOutlineFamilyRestroom className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                         </div>
@@ -95,10 +104,12 @@ function Home() {
                         <div className=' flex place-content-start justify-center text-justify  text-base font-serif text-gray-200 px-6 pb-10'>
                             Our corporate services help dealing with the crucial and itricate matters efficiently.
                         </div>
+                        </a>
                     </div>
 
 
                     <div className='group bg-gray-800 grid grid-row-3 p-8 hover:cursor-pointer '>
+                        <a href='/constitutionallaw'>
                         <div className='flex items-center justify-center'>
                             < FaBalanceScale className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                         </div>
@@ -108,10 +119,12 @@ function Home() {
                         <div className=' flex place-content-start justify-center text-justify  text-base font-serif text-gray-200 px-6 pb-10'>
                             Our corporate services help dealing with the crucial and itricate matters efficiently.
                         </div>
+                        </a>
                     </div>
 
 
                     <div className='group bg-gray-600 grid grid-row-3 p-8 hover:cursor-pointer '>
+                        <a href='/medicallaw'>
                         <div className='flex items-center justify-center'>
                             <FaBriefcaseMedical className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                         </div>
@@ -121,9 +134,11 @@ function Home() {
                         <div className=' flex place-content-start justify-center text-justify  text-base font-serif text-gray-200 px-6 pb-10'>
                             Our corporate services help dealing with the crucial and itricate matters efficiently.
                         </div>
+                        </a>
                     </div>
 
                     <div className='group bg-gray-800 grid grid-row-3 p-8 hover:cursor-pointer '>
+                        <a href='/civildispute'>
                         <div className='flex items-center justify-center'>
                             < FaHome className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                         </div>
@@ -133,7 +148,9 @@ function Home() {
                         <div className=' flex place-content-start justify-center text-justify  text-base font-serif text-gray-200 px-6 pb-10'>
                             Our corporate services help dealing with the crucial and itricate matters efficiently.
                         </div>
+                        </a>
                     </div>
+                    
 
                 </div>
             </div>

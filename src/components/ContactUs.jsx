@@ -26,7 +26,7 @@ const ContactUs = () => {
 
             </div>
 
-            <div className="mx-4 mb-8 md:mb-0 flex-1 w-full">
+            <div className="mx-4 mb-8 md:mb-0 flex-1 w-full pb-16 items-center">
                 <h4 className="text-lg mb-4">Contact Us</h4>
                 <div className="flex flex-row mb-4 md:mb-4">
                     <BsFillTelephoneFill size={10} /> <a href="tel:+18002162020" className='hover:scale-105 duration-200 hover:text-yellow-400 font-bold '> 011-41324533 |  +91 8447185912</a>

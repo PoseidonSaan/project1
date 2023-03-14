@@ -21,11 +21,9 @@ const NavBar = () => {
         <li className='px-4 cursor-pointer uppercase font-small
         hover:scale-105 duration-200  hover:text-yellow-400 focus:text-yellow-400'><a href='/areapractice'>Areas Of Practice</a></li>
         <li className='px-4 cursor-pointer uppercase font-small
-        hover:scale-105 duration-200  hover:text-yellow-400 focus:text-yellow-400'>publication & media</li>
+        hover:scale-105 duration-200  hover:text-yellow-400 focus:text-yellow-400'><a href='/career'>Career</a></li>
         <li className='px-4 cursor-pointer uppercase font-small
-        hover:scale-105 duration-200  hover:text-yellow-400 focus:text-yellow-400'>career</li>
-        <li className='px-4 cursor-pointer uppercase font-small
-        hover:scale-105 duration-200  hover:text-yellow-400 focus:text-yellow-400'>contact us</li>
+        hover:scale-105 duration-200  hover:text-yellow-400 focus:text-yellow-400'><a href='/contactus'>Contact Us</a></li>
 
       </ul>
 
@@ -43,11 +41,9 @@ const NavBar = () => {
           <li className=' cursor-pointer uppercase font-small
               hover:scale-105 duration-200 py-2 px-20 focus:text-yellow-400'><a href='/areapractice'>Areas Of Practice</a></li>
           <li className='px-20 py-2 cursor-pointer uppercase font-small
-              hover:scale-105 duration-200 focus:text-yellow-400'>publication & media</li>
+             hover:scale-105 duration-200 focus:text-yellow-400'><a href='/career'>Career</a></li>
           <li className='px-20 py-2 cursor-pointer uppercase font-small
-             hover:scale-105 duration-200 focus:text-yellow-400'>career</li>
-          <li className='px-20 py-2 cursor-pointer uppercase font-small
-             hover:scale-105 duration-200 focus:text-yellow-400'>contact us</li>
+             hover:scale-105 duration-200 focus:text-yellow-400'><a href='/contactus'>Contact Us</a></li>
 
 
         </ul>

@@ -78,7 +78,7 @@ const AreaPractice = () => {
             
         <div>
             <div  className='group bg-gray-800 grid grid-row-2 p-0 hover:cursor-pointer '>
-            <a href='/whitecolaar'>
+            <a href='/whitecollar'>
                 <div className='flex items-center justify-center'>
                    <GiHandcuffs className='h-1/2 w-1/2 duration:150 group-hover:scale-105 group-hover:fill-white' color='#f59e0b' />
                 </div>

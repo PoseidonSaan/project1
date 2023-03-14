@@ -13,6 +13,8 @@ import Medical from './components/Medical';
 import Privacy from './components/Privacy';
 import WhiteCollar from './components/WhiteCollar';
 import { Routes , Route } from 'react-router-dom';
+import Career from './components/Career';
+import ContactUs from './components/ContactUs';
 
 
 function App() {
@@ -21,7 +23,7 @@ function App() {
       <TopPage />
       <NavBar />
       <Routes>
-        <Route path='' element={<Home/>} />
+        <Route path='/project1' element={<Home/>} />
         <Route path='/areapractice' element={<AreaPractice/>} />
         <Route path='/businesslaw' element={<BusinessLaw/>} />
         <Route path='/civildispute' element={<CivilDispute/>} />
@@ -32,9 +34,13 @@ function App() {
         <Route path='/medicallaw' element={<Medical/>} />
         <Route path='/privacylaw' element={<Privacy/>} />
         <Route path='/whitecollar' element={<WhiteCollar/>} />
+        <Route path='/career' element={<Career/>} />
+        <Route path='/contactus' element={<ContactUs/>} />
 
 
       </Routes>
+
+      
       
       <BottomPage />
     </div>

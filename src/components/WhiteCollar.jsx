@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiOutlineMinus } from "react-icons/ai"
 import { IoChevronForwardSharp } from 'react-icons/io5'
-const CriminalLaw = () => {
+const WhiteCollar = () => {
     return (
         <div>
             <div className='pt-20'>
@@ -105,4 +105,4 @@ const CriminalLaw = () => {
     )
 }
 
-export default CriminalLaw
+export default WhiteCollar

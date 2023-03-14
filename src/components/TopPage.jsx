@@ -13,15 +13,17 @@ const TopPage = () => {
         <div className="flex flex-col  mb-4 md:mb-0">
           <a href="hello@jayantbhatt.in" className='hover:scale-105 duration-200 hover:text-yellow-400 font-bold '>@ hello@jayantbhatt.in</a>
         </div>
-        <div className="flex flex-col  mb-4 md:mb-0">
-          <BsFillTelephoneFill size={15} /> <a href="tel:+18002162020" className='hover:scale-105 duration-200 hover:text-yellow-400 font-bold '> 011-41324533 |  +91 8447185912</a>
+        <div className="inline-flex items-center font-bold md:mb-0 mb-4 md:px-3">
+          <BsFillTelephoneFill className="mr-1" /> <span className="text-sm font-bold uppercase hover:scale-105 duration-200 hover:text-yellow-400 cursor-pointer"><a href='tel:+18002162020'> 011-41324533 |  +91 8447185912</a></span>
 
         </div>
-        <div className="flex flex-col  mb-4 md:mb-0">
-          <p className='hover:scale-105 duration-200 hover:text-yellow-400 font-bold'> <BsFillClockFill size={15} />Mon - Sat: 10.00 am - 8.00 pm</p>
+        <div className="inline-flex items-center font-bold md:mb-0 mb-4 md:px-3">
+          <BsFillClockFill className='mr-1' />
+          <span className="text-sm font-bold uppercase hover:scale-105 duration-200 hover:text-yellow-400 cursor-pointer"> Mon - Sat: 10.00 am - 8.00 pm</span>
         </div>
-        <div className="flex flex-col ">
-          <p className='hover:scale-105 duration-200 hover:text-yellow-400 font-bold'><IoLocationSharp size={15} />A71, New Friends Colony, New Delhi – 110025</p>
+        <div className="inline-flex items-center font-bold md:mb-0 mb-4 md:px-3 ">
+          <IoLocationSharp className='mr-1' />
+          <p className='hover:scale-105 duration-200 hover:text-yellow-400 font-bold'>A71, New Friends Colony, New Delhi – 110025</p>
         </div>
       </div>
     </header>

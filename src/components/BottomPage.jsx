@@ -13,7 +13,7 @@ const BottomPage = () => (
                 </a>
                     <div className="max-w-xs text-left ">
                         <p className="text-m overflow-hidden text-gray-400 pb-4" style={{ textOverflow: 'ellipsis' }}>
-                            Chambers of Jayant Bhatt caters to varied clients comprising of Governmental and Non-Governmental Bodies, Multinationals, Financial Institutions and individuals in an array of matters.
+                            Chambers of Vaibhav Srivastava caters to varied clients comprising of Governmental and Non-Governmental Bodies, Multinationals, Financial Institutions and individuals in an array of matters.
                         </p>
                     </div>
                 </div>

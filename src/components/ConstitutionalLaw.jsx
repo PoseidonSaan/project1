@@ -1,9 +1,14 @@
 import React from 'react'
 import { AiOutlineMinus } from "react-icons/ai"
 import { IoChevronForwardSharp } from 'react-icons/io5'
+import TopPage from './TopPage';
+import NavBar from './NavBar'
+import BottomPage from './BottomPage';
 const ConstitutionalLaw = () => {
   return (
     <div>
+         <TopPage/>
+            <NavBar/>
       <div className='pt-20'>
         <div
           className='uppercase text-5xl bg-yellow-5G00 bg-opacity-80 text-white text-left font-black font-[sans-serif]  pt-10 pl-20 mx-10 pb-0 mb-32 h-52'
@@ -110,6 +115,7 @@ const ConstitutionalLaw = () => {
 
 
       </div>
+      <BottomPage/>
     </div>
   )
 }

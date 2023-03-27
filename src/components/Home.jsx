@@ -1,4 +1,7 @@
 import React from 'react';
+import TopPage from './TopPage';
+import NavBar from './NavBar'
+import BottomPage from './BottomPage';
 
 import { GiPistolGun } from 'react-icons/gi'
 import { GiHandcuffs } from 'react-icons/gi'
@@ -15,6 +18,8 @@ import { RiTeamFill } from 'react-icons/ri'
 function Home() {
     return (
         <div>
+            <TopPage/>
+            <NavBar/>
             <div className='w-100% h-fit   text-black px-20'>
                 <div className=' p-4 flex flex-col justify-left w-full h-full text-sm font-light mx-auto'>
                     <div className='pb-4'>
@@ -154,6 +159,7 @@ function Home() {
 
                 </div>
             </div>
+            <BottomPage/>
 
 
 

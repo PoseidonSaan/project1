@@ -5,7 +5,7 @@ import { BsFillTelephoneFill, BsFillClockFill } from 'react-icons/bs'
 import { IoLocationSharp } from 'react-icons/io5'
 
 const BottomPage = () => (
-    <div>
+    <div className='pt-12'>
         <footer className="bg-[#242A36] text-white py-10">
             <div className="flex flex-wrap flex-col justify-center md:flex-row md:justify-between">
                 <div className="mx-4 mb-8 md:mb-0 flex flex-col items-center flex-1 w-full"><a href='/project1'>

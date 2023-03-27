@@ -2,11 +2,16 @@
 import { BsFillTelephoneFill, BsFillClockFill } from "react-icons/bs";
 import { IoLocationSharp } from "react-icons/io5";
 import { AiOutlineMinus } from "react-icons/ai";
+import TopPage from './TopPage';
+import NavBar from './NavBar'
+import BottomPage from './BottomPage';
 
 
 const ContactUs = () => {
     return (
         <div>
+               <TopPage/>
+            <NavBar/>
             <div className='pt-20'>
                 <div
                     className='uppercase text-5xl bg-yellow-5G00 bg-opacity-80 text-white text-left font-black font-[sans-serif]  pt-10 pl-20 mx-10 pb-0 mb-32 h-52'
@@ -39,6 +44,7 @@ const ContactUs = () => {
                     <p className='hover:scale-105 duration-200 hover:text-yellow-400 font-bold'><IoLocationSharp></IoLocationSharp>A71, New Friends Colony, New Delhi – 110025</p>
                 </div>
             </div>
+            <BottomPage/>
 
         </div>
     )

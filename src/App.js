@@ -15,15 +15,16 @@ import WhiteCollar from './components/WhiteCollar';
 import { Routes , Route } from 'react-router-dom';
 import Career from './components/Career';
 import ContactUs from './components/ContactUs';
+import Landingpage from './components/LandingPage';
 
 
 function App() {
   return (
     <div>
-      <TopPage />
-      <NavBar />
+     
       <Routes>
-        <Route path='/project1' element={<Home/>} />
+        <Route path='/project1' element={<Landingpage/>} />
+        <Route path='/home' element={<Home/>} />
         <Route path='/areapractice' element={<AreaPractice/>} />
         <Route path='/businesslaw' element={<BusinessLaw/>} />
         <Route path='/civildispute' element={<CivilDispute/>} />
@@ -42,7 +43,7 @@ function App() {
 
       
       
-      <BottomPage />
+    
     </div>
   );
 }

@@ -2,9 +2,14 @@ import React from 'react'
 import { AiOutlineMinus } from "react-icons/ai"
 import BusinessLaws from '../assets/Business-Laws.jpg'
 import { IoChevronForwardSharp } from 'react-icons/io5'
+import TopPage from './TopPage';
+import NavBar from './NavBar'
+import BottomPage from './BottomPage';
 const BusinessLaw = () => {
   return (
     <div>
+         <TopPage/>
+            <NavBar/>
       <div className='pt-20'>
         <div
           className='uppercase text-5xl bg-yellow-500 bg-opacity-80 text-white text-left font-black font-[sans-serif]  pt-10 pl-20 mx-10 pb-0 mb-32 h-52'
@@ -115,6 +120,7 @@ const BusinessLaw = () => {
 
 
       </div>
+      <BottomPage/>
     </div>
   )
 }

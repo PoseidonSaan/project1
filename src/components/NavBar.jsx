@@ -23,7 +23,7 @@ const NavBar = () => {
         <li className='px-4 cursor-pointer uppercase font-small
         hover:scale-105 duration-200  hover:text-yellow-400 focus:text-yellow-400'><a href='/career'>Career</a></li>
         <li className='px-4 cursor-pointer uppercase font-small
-        hover:scale-105 duration-200  hover:text-yellow-400 focus:text-yellow-400'><a href='/contactus'>Contact Us</a></li>
+        hover:scale-105 duration-200  hover:text-yellow-400 focus:text-yellow-400'><a href='/publicationmedia'>Publication And Media</a></li>
 
       </ul>
 

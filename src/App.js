@@ -16,13 +16,14 @@ import { Routes , Route } from 'react-router-dom';
 import Career from './components/Career';
 import ContactUs from './components/ContactUs';
 import Landingpage from './components/LandingPage';
+import PublicationMedia from './components/PublicationMedia';
 
 
 function App() {
   return (
     <div>
      
-      <Routes>
+      {/* <Routes>
         <Route path='/project1' element={<Landingpage/>} />
         <Route path='/home' element={<Home/>} />
         <Route path='/areapractice' element={<AreaPractice/>} />
@@ -37,9 +38,10 @@ function App() {
         <Route path='/whitecollar' element={<WhiteCollar/>} />
         <Route path='/career' element={<Career/>} />
         <Route path='/contactus' element={<ContactUs/>} />
+        <Route path='/publicationmedia' element={<PublicationMedia/>} />
 
-
-      </Routes>
+      </Routes> */}
+      <PublicationMedia/>
 
       
       

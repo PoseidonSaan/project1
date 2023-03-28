@@ -28,7 +28,7 @@ const BottomPage = () => (
                         </li>
                         <li className="mb-2"><div className="inline-flex items-center font-bold">
                             <IoChevronForwardSharp className="mr-1" />
-                            <span className="text-sm font-bold uppercase hover:scale-105 duration-200 hover:text-yellow-400 cursor-pointer"><a href='/contactus'>Contact us</a></span>
+                            <span className="text-sm font-bold uppercase hover:scale-105 duration-200 hover:text-yellow-400 cursor-pointer"><a href='/publicationmedia'>Publication And Media </a></span>
                         </div></li>
                         <li className="mb-2 text-sm"><div className="inline-flex items-center font-bold">
                             <IoChevronForwardSharp className="mr-1" />

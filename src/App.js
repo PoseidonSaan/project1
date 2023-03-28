@@ -23,7 +23,7 @@ function App() {
   return (
     <div>
      
-      {/* <Routes>
+      <Routes>
         <Route path='/project1' element={<Landingpage/>} />
         <Route path='/home' element={<Home/>} />
         <Route path='/areapractice' element={<AreaPractice/>} />
@@ -40,8 +40,8 @@ function App() {
         <Route path='/contactus' element={<ContactUs/>} />
         <Route path='/publicationmedia' element={<PublicationMedia/>} />
 
-      </Routes> */}
-      <PublicationMedia/>
+
+      </Routes>
 
       
       

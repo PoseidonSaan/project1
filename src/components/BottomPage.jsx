@@ -3,6 +3,7 @@ import whitelogo from '../assets/logo.png'
 import { IoChevronForwardSharp } from 'react-icons/io5'
 import { BsFillTelephoneFill, BsFillClockFill } from 'react-icons/bs'
 import { IoLocationSharp } from 'react-icons/io5'
+import { FaLinkedin } from 'react-icons/fa'
 
 const BottomPage = () => (
     <div className='pt-12'>
@@ -65,6 +66,22 @@ const BottomPage = () => (
                     </div>
                 </div>
             </div>
+            <div className="bg-gray-800 py-4 text-center">
+                <div className="flex flex-col items-center justify-center">
+                    <p className="text-white text-lg font-bold mb-2">
+                        All Rights Reserved © {new Date().getFullYear()} Chambers of Jayant Bhatt
+                    </p>
+                    <div className="flex flex-row items-center justify-center">
+                        <p className="text-gray-400 text-sm">
+                            Follow us on LinkedIn:
+                        </p>
+                        <a href="https://www.linkedin.com/company/chambers-of-jayant-bhatt/" target="_blank" rel="noreferrer">
+                            <FaLinkedin className="ml-2 text-gray-400 text-lg hover:text-blue-500 transition-colors duration-200" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </footer>
     </div>
 )

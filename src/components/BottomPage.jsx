@@ -50,6 +50,20 @@ const BottomPage = () => (
                         <p className='hover:scale-105 duration-200 hover:text-yellow-400 font-bold'>A71, New Friends Colony, New Delhi – 110025</p>
                     </div>
                 </div>
+                <div className="mx-4 mb-8 md:mb-0 flex-1 w-full">
+                    <h4 className="text-lg mb-4">Location</h4>
+                    <div className="h-96 rounded-md overflow-hidden">
+                        <iframe
+                            className="w-full h-64 mt-4"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56066.12302676169!2d77.271583!3d28.565778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3917c7b2da5%3A0x724ac47598a5d62e!2sChambers%20of%20Jayant%20Bhatt!5e0!3m2!1sen!2sus!4v1679990940074!5m2!1sen!2sus"
+                            width="600"
+                            height="450"
+                            style={{ border: 0 }}
+                            allowFullScreen=""
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
             </div>
         </footer>
     </div>

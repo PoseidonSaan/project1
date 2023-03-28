@@ -37,9 +37,9 @@ const NavBar = () => {
         <ul className='flex flex-col items-left text-left absolute top-0 left-0 w-full h-screen bg-stone-800 text-white'>
           <li><img src={Whitelogo} alt="logo" /></li>
           <li className='cursor-pointer uppercase font-small
-              hover:scale-105 duration-200 py-2 px-20 mt-20 focus:text-yellow-400'><a href='/'>Home</a></li>
+              hover:scale-105 duration-200 py-2 px-20 mt-20 focus:text-yellow-400'><link to="/home">Home</link>Home</li>
           <li className=' cursor-pointer uppercase font-small
-              hover:scale-105 duration-200 py-2 px-20 focus:text-yellow-400'><a href='/areapractice'>Areas Of Practice</a></li>
+              hover:scale-105 duration-200 py-2 px-20 focus:text-yellow-400'><link to="/areapractice">Areas of Practice</link></li>
           <li className='px-20 py-2 cursor-pointer uppercase font-small
              hover:scale-105 duration-200 focus:text-yellow-400'><a href='/career'>Career</a></li>
           <li className='px-20 py-2 cursor-pointer uppercase font-small
